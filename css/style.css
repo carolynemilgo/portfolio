@@ -4,7 +4,8 @@
     padding: 0;
     font-family: sans-serif;
     background-image: url("");
-  }
+    color: pink;
+      }
   .main_body{
     width:100%;
     background-color: #000;
@@ -33,3 +34,15 @@
          margin: 5px;
         background-color: pink;
        }
+
+img
+{
+ width: 350px;
+ height:350px;
+ opacity: 0.8;
+filter: alpha(opacity=50);
+}
+img:hover {
+opacity: 1.0;
+filter: alpha(opacity=100);
+}
