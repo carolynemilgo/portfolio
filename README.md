@@ -11,5 +11,5 @@ Once the project folder has been downloaded to preferred location, extract the f
 # link to GitHub Pages
 https://github.com/carolynemilgo/portfolio
 # Copyright
-Licenced under [MIT licence](License)
+Licensed under [MIT license](License)
 Carolyne Milgo, Moringa School
