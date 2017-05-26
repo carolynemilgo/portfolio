@@ -10,6 +10,11 @@
     background-color: #000;
 
   }
+  .small
+  {
+        font-famiy: sans-serif;
+        color: black;
+  }
   .another_body{
     width: inherit;
     height: auto;
