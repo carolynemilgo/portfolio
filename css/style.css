@@ -22,23 +22,12 @@ img {
   width: 100%;
 }
 
-.alignment {
-  align: center;
-}
-
-.headings {
-  text-shadow: 50px;
-}
-
 .bg-cover {
   background-repeat: no-repeat;
 }
 
 .button {
   border: none;
-  font-family: inherit;
-  font-size: inherit;
-  color: inherit;
   background: none;
   cursor: pointer;
   padding: 25px 80px;
@@ -47,11 +36,8 @@ img {
   text-transform: uppercase;
   letter-spacing: 1px;
   font-weight: 700;
-  outline: none;
-  position: relative;
-  -webkit-transition: all 0.3s;
-  -moz-transition: all 0.3s;
-  transition: all 0.3s;
+
+
 }
 
 .button-style {
@@ -64,12 +50,10 @@ img {
 .button-style:before {
   position: absolute;
   height: 100%;
-  font-size: 125%;
-  line-height: 3.5;
+  font-size: 130%;
+  line-height: 3.8;
   color: #fff;
-  -webkit-transition: all 0.3s;
-  -moz-transition: all 0.3s;
-  transition: all 0.3s;
+
 }
 
 #preloader {
@@ -79,10 +63,7 @@ img {
   height: 100%;
   width: 100%;
   background: #ffffff;
-  z-index: 999;
-  -webkit-transition: all .5s ease;
-  -moz-transition: all .5s ease;
-  transition: all .5s ease;
+
 }
 
 body.loaded #preloader {
@@ -101,38 +82,8 @@ body.loaded #preloader {
   border-radius: 50%;
   border: 3px solid transparent;
   border-top-color: #24b662;
-  -webkit-animation: spin 2s linear infinite;
-  animation: spin 2s linear infinite;
-}
 
-.loader:before {
-  content: "";
-  position: absolute;
-  top: 5px;
-  left: 5px;
-  right: 5px;
-  bottom: 5px;
-  border-radius: 50%;
-  border: 3px solid transparent;
-  border-top-color: #24b662;
-  -webkit-animation: spin 3s linear infinite;
-  animation: spin 3s linear infinite;
 }
-
-.loader:after {
-  content: "";
-  position: absolute;
-  top: 15px;
-  left: 15px;
-  right: 15px;
-  bottom: 15px;
-  border-radius: 50%;
-  border: 3px solid transparent;
-  border-top-color: #24b662;
-  -webkit-animation: spin 1.5s linear infinite;
-  animation: spin 1.5s linear infinite;
-}
-
 
 .home-section {
   height: 100%;
@@ -157,13 +108,13 @@ body.loaded #preloader {
   z-index: -1;
 }
 
-.display-table {
+.tableOne {
   display: table;
   width: 100%;
   height: 100%;
 }
 
-.display-table-cell {
+.tableTwo {
   display: table-cell;
   vertical-align: middle;
 }
