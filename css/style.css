@@ -1,10 +1,11 @@
 body {
-  font-size: 16px;
+  font-size: 18px;
   font-weight: 400;
   line-height: 24px;
   letter-spacing: 1px;
   height: 100%;
   font-family: 'Slabo 27px', serif;
+
 }
 
 html, body {
@@ -92,7 +93,7 @@ body.loaded #preloader {
 .home-section-background {
   position: relative;
   height: 150%;
-  background: url(../images/bg/bg1.jpg);
+  background: url(../images/bg/back.jpg);
   background-size: cover;
   z-index: 1;
 }
